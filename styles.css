@@ -1,0 +1,19 @@
+
+article {
+    background-color: #FFECB3;
+    font-size: 16px;
+    text-decoration-color: #333;
+    p {
+        line-height: 1.5;
+        font-style: italic;
+    }
+}
+
+article.featured {
+    background-color: #FFD54F;
+    font-weight: bold;
+    border: 2px solid #FFA000
+}
+article.featured:hover {
+    background-color: #FFB300;
+}
