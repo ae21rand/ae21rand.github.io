@@ -1,0 +1,55 @@
+nav {
+    display: flex;
+    background-color: #333;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+
+}
+
+nav div {
+    color: white;
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 1em;
+    margin-left: auto;
+    text-decoration: none;
+    color: white;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+ul li a:hover {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+@media (max-width: 600px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 1em;
+    }
+    nav div {
+        width: 100%;
+        text-align: center;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        margin-left: 15em;
+    }
+
+}

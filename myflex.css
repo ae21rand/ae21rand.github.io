@@ -1,8 +1,8 @@
 
 .flex-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-items:center
     gap: 2em;
     background-color: lightgray;
     height: auto;
@@ -20,19 +20,12 @@
 }
 
 @media (min-width: 600px) {
-    .flex-container {
-        flex-direction: row;
-        justify-content: center;
-    }
     .flex-item {
         color: grey;
     }
 }
 
-@media (min-width: 900px) {
-    .flex-container {
-        justify-content: center;
-    }
+@media (max-width: 600px) {
     .flex-item {
         color: purple;
     }
